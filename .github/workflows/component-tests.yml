@@ -1,0 +1,10 @@
+# component-tests.yml
+# Component testing with React Testing Library
+# Generated: 2026-04-09
+
+apiVersion: v1
+kind: Config
+metadata:
+  name: component-tests
+spec:
+  # TODO: Add configuration
