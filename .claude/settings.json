@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "projectName": "component-library",
+  "organization": "polybase-poc",
+  "team": "frontend",
+  "rules": [
+    ".claude/rules/security.md",
+    ".claude/rules/code-quality.md",
+    ".claude/rules/git-workflow.md"
+  ],
+  "statusline": {
+    "enabled": true,
+    "format": "[component-library] {branch} {status}"
+  },
+  "integrations": {
+    "github": {
+      "enabled": true,
+      "org": "polybase-poc",
+      "repo": "component-library"
+    }
+  }
+}
